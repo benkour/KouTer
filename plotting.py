@@ -32,7 +32,7 @@ def plot_results(truth, mean, uncertainty, dimenet_target, prediction_target, st
     plt.xlim(x_min, x_max)
     plt.ylim(x_min, x_max)
     plt.savefig(results_folder+'/' +str(dimenet_target) + str(uncertainty) + '_'+str(standardization)+'_'+custom_line+'.pdf')
-    plt.show()
+    # plt.show()
     plt.close()
 
 
@@ -51,9 +51,11 @@ def plot_error_bars(truth, mean, std, property_min, property_max, uncertainty, d
     plt.ylabel('Predicted Mean')
     plt.savefig('results/'+str(prediction_target) +
                 str(dimenet_target) + str(uncertainty)+'.pdf')
-    plt.show()
+    # plt.show()
+    plt.close()
 
 
 def plot_histogram(mean):
     plt.hist(mean[-1], bins=30, color='skyblue', edgecolor='black')
-    plt.show()
+    # plt.show()
+    plt.close()

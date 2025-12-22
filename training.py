@@ -30,7 +30,6 @@ import json
 # save_folder = config["save_folder"]
 # dimenet_flag = config.get("dimenet_flag")
 # # Set seeds for reproducibility
-# nr_of_solvent_predictions = config.get("nr_of_solvent_predictions")
 import random
 
 from tqdm import tqdm
@@ -64,7 +63,6 @@ def train_model(config, descriptor_min, descriptor_max, property_min, property_m
     save_folder = config["save_folder"]
     dimenet_flag = config.get("dimenet_flag")
     # Set seeds for reproducibility
-    nr_of_solvent_predictions = config.get("nr_of_solvent_predictions")
     if solvent_prediction_flag:
         # graph_data_path = os.getcwd() + '/solvent_graphs/'
         # graph_data_path = os.getcwd() + '/molecular_fingerprints/outv2/ver2_dataset/solvent_'+ str(prediction_target) +'_graphs_out'
@@ -226,7 +224,7 @@ def train_model(config, descriptor_min, descriptor_max, property_min, property_m
 
     if solvent_prediction_flag:
         print("Starting solvent predictions...")
-        for i in range(nr_of_solvent_predictions):
+        for i in range(1):
             mean_solvents, std_solvents, names_solvents = use_model(config,
                 prediction_loader, model_dimenet, transformer_model, 'cpu', gp_model, likelihood, uncertainty,output_dim_model)
             mean_solvents = np.array(mean_solvents)
@@ -277,7 +275,6 @@ def test_model(config, test_loader, model_dimenet, transformer_model, device, gp
     save_folder = config["save_folder"]
     dimenet_flag = config.get("dimenet_flag")
     # Set seeds for reproducibility
-    nr_of_solvent_predictions = config.get("nr_of_solvent_predictions")
     model_dimenet = model_dimenet.to(device)
     transformer_model = transformer_model.to(device)
     model_dimenet.eval()
@@ -367,7 +364,6 @@ def use_model(config, test_loader, model_dimenet, transformer_model, device, gp_
     save_folder = config["save_folder"]
     dimenet_flag = config.get("dimenet_flag")
     # Set seeds for reproducibility
-    nr_of_solvent_predictions = config.get("nr_of_solvent_predictions")
 
     transformer_model.to(device)
         # print('device of likelihood:', likelihood.device)

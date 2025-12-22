@@ -1,7 +1,7 @@
 # A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced  transfer learning
 
 
-This repository includes the code base of the paper **"A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced  transfer learning"**. 
+This repository includes the code base of the paper **"A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced  transfer learning"**.
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@ This repository includes the code base of the paper **"A green solvent screening
 2. [Prerequisites ](#prerequisites)
 3. [Parameter and Input Specification](#parameter-specification)
 4. [How to Run](#how_to_run)
-
+4. [Expected Inputs and Outouts](#expected)
 
 
 
@@ -19,7 +19,7 @@ Our pipeline consists of
 - A customly altered pre-trained foundational model (DimeNet) that outputs a vector for each molecule
 - A transformer model
 - A Gaussian processes model
-- Optional Chemical Description 
+- Optional Chemical Description
 
 
 All options are configurable in the parameters.json file
@@ -29,7 +29,7 @@ All options are configurable in the parameters.json file
 **Tested Configuration**:
 
 - Operating System: Ubuntu 22.04 (jammy)
-- IDE: Visual Studio Code 
+- IDE: Visual Studio Code
 
 **Note**: As a rule, everything should work on other systems as well but we cant guarantee it.
 
@@ -48,7 +48,7 @@ The code will also benefit from CUDA should you have an NVIDIA graphics card
 
 ## Parameter configuration <a name="parameter-specification"></a>
 
-The pipeline can be deeply altered by diving into the source code. Nevertheless, a user friendly approach to change 
+The pipeline can be deeply altered by diving into the source code. Nevertheless, a user friendly approach to change
 the model architecture and training is through altering the **parameters.json** file.
 
 
@@ -62,6 +62,7 @@ the model architecture and training is through altering the **parameters.json** 
 | `standardization`         | List    | a list of boolean values that determines whether to standardize the values of the targets or not.                                                                                                                                                                                                              |
 | `uncertainty`         | List    | a list of boolean values that determines whether to use Gaussian Processes as the final layer of the model or not. It is a list because it can be sweeped as any other hyperparameter.                                                                                                                                                                                                                       |
 | `log_flag`                 | Bool    |  true or false depending on if the values of the target should be processed by a log10 preprocessing function. Useful when the target spans many orders of magnitude                                                                                                                                                                                                                             |
+| `divided_by_10_flag`                 | Bool    |  true or false depending on if the values of the target should be divided by 10 before processing. Experimental.                                                                                                                                                                                                                           |
 | `transfomers_flag`                | Bool    | rue or false depending on whether a transformer layer should be used between the foundational model and the Gaussian processes                                                                                                                                                                                                                                     |
 | `nr_of_mixtures`             | Integer  | Currently the Gaussian Processes Kernel function is fixed to Gaussian Mixtures. This value determines how many mixtures this kernel should have. Can only be an integer                                                                                                                                                                                            |
 | `descriptor_flag`     | Bool    | true or false depending on whether you want to use molecular descriptors along with the foundational model outputs                                                                                 |
@@ -78,8 +79,20 @@ the model architecture and training is through altering the **parameters.json** 
 | `nr_of_runs`             | Integer     | number of folds in the k-fold validation                                                                                                                                                          |
 
  ## How to Run <a name="how_to_run"></a>
- - Open the terminal and navigate to the folder level that contains the *main.py* file. 
- - Activate the environment with the libraries if you have created one. If you have installed the requirements on the default Path, ignore this step. 
+ - Open the terminal and navigate to the folder level that contains the *main.py* file.
+ - Activate the environment with the libraries if you have created one. If you have installed the requirements on the default Path, ignore this step.
  - Type python main.py and press enter
 
 
+## Expected Inputs and Outputs<a name="expected"></a>
+
+As input the model expects
+- the parameters.json adjusted to your specification
+- the graphs in the data folder (they should be in the form of graphs and stored in a .pt file).
+    - if you only want to train your model: only the data of your case study
+    - if you want to additionally create predictions for the VOC dataset, those are expected too
+
+As output the model will give:
+- a true vs prediction  graph of the k-fold test set
+- a file containing the concatenated  predictions, truths and standard deviations of all tests of the kfold process
+- if you have selected VOC dataset prediction , one file for the means and standard deviations of the VOC dataset for each fold run.
