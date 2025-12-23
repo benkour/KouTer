@@ -1,0 +1,2 @@
+from initial_graph_creation import *
+create_graphs()

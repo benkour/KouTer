@@ -1,0 +1,8 @@
+{    "property": ["AN"],
+    "file": "DN.csv",
+    "dimenet_target": [0],
+    "VOC_prediction_flag": true,
+    "initial_processing": false,
+    "descriptor_processing": false,
+    "dimenet_outputs": true
+}
