@@ -1,0 +1,198 @@
+,Name,Formula,a,b,pi,🏷 Tag
+0,"1,1,1,3,3,3-hexafluoro-2-propanol",C3H2F6O,1.96,0.0,0.65,halo alcohol
+1,"1,1,1-trichloroethane",C2H3Cl3,0.0,0.0,0.49,halo
+2,"1,1,2,2-tetrachloroethane",C2H2Cl4,0.0,0.0,0.95,halo
+3,"1,1,3,3-tetramethylguanidine",C5H13N3,0.0,0.86,0.76,
+4,"1,1-dichloroethane",C2H4Cl2,0.1,0.1,0.48,halo
+5,"1,2,3-propanetriol",C3H8O3,1.21,0.51,0.62,alcohol
+6,"1,2-diaminoethane",C2H8N2,0.13,1.43,0.47,amine
+7,"1,2-dibromoethane",C2H4Br2,0.0,0.0,0.75,halo
+8,"1,2-dichlorobenzene",C6H4Cl2,0.0,0.03,0.80,aromatic halo
+9,"1,2-dichloroethane",C2H4Cl2,0.0,0.1,0.81,halo
+10,"1,2-dimethoxyethane",C4H10O2,0.0,0.41,0.53,ether
+11,"1,3,3-trimethyl-2-oxabicyclo[2.2.2]octane",C10H18O,0.0,0.61,…,ether
+12,"1,3,5-trimethylbenzene",C9H12,0.0,0.13,0.41,aromatic
+13,"1,3-dichlorobenzene",C6H4Cl2,0.0,0.03,0.75,aromatic halo
+14,"1,3-dimethylbenzene",C8H10,0.0,0.11,0.47,aromatic
+15,"1,3-dioxolan-2-one",C3H4O3,0.0,0.41,…,ester
+16,"1,3-dioxolane",C3H6O2,0.0,0.45,0.69,
+17,"1,4-difluorobenzene",C6H4F2,0.0,0.03,0.58,aromatic halo
+18,"1,4-dimethylbenzene",C8H10,0.0,0.12,0.43,aromatic
+19,1-bromobutane,C4H9Br,0.0,0.13,0.50,halo
+20,1-butyl-3-methyl-1H-imidazol-3-ium trifluoromethanesulfonate,C9H15F3N2O3S,0.63,0.46,1.01,
+21,1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide,C10H15F6N3O4S2,0.62,0.24,0.98,
+22,1-chlorobutane,C4H9Cl,0.0,0.0,0.39,halo
+23,1-ethyl-3-methyl-1H-imidazol-3-ium dicyanoazanide,C8H11N5,0.53,0.35,1.08,
+24,1-ethyl-3-methyl-1H-imidazol-3-ium hexafluorophosphate,C6H11F6N2P,0.76,0.2,0.99,
+0,1-ethyl-3-methyl-1H-imidazol-3-ium hexyl sulfate,C12H24N2O4S,0.65,0.71,0.98,
+1,1-ethyl-3-methyl-1H-imidazol-3-ium octyl sulfate,C14H28N2O4S,0.65,0.77,0.93,
+2,1-ethyl-3-methyl-1H-imidazol-3-ium perchlorate,C6H11ClN2O4,0.56,0.41,1.11,
+3,1-ethyl-3-methylimidazolium acetate,C8H14N2O2,0.4,0.95,1.09,
+4,1-ethyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide,C8H11F6N3O4S2,0.76,0.28,0.90,
+5,1-ethyl-3-methylimidazolium nitrate,C6H11N3O3,0.48,0.66,1.13,
+6,1-ethyl-3-methylimidazolium tetrafluoroborate,C6H11BF4N2,0.7,0.26,1.03,
+7,1-hexyl-3-methyl-1H-imidazol-3-ium bis[(trifluoromethyl)sulfonyl]azanide,C12H19F6N3O4S2,0.65,0.25,0.98,
+8,1-iodobutane,C4H9I,0.0,0.23,0.47,halo amine
+9,1-methylazepan-2-one,C7H13NO,0.0,0.69,…,amide
+10,"2,2,2-trifluoroethanol",C2H3F3O,1.51,0.0,0.73,halo alcohol
+11,"2,6-dimethylpyridine",C7H9N,0.0,0.76,0.80,heteroaromatic
+12,2-bromopyridine,C5H4BrN,0.0,0.53,1.00,halo heteroaromatic
+13,2-butanol,C4H10O,0.69,0.8,0.40,alcohol
+14,2-butanone,C4H8O,0.06,0.48,0.67,ketone
+15,2-chloroaniline,C6H6ClN,0.25,0.4,0.83,aromatic halo amine
+16,2-chloroethanol,C2H5ClO,1.28,0.53,0.46,halo alcohol
+17,2-cyanopyridine,C6H4N2,0.0,0.29,1.20,nitrile heteroaromatic
+18,2-fluoropyridine,C5H4FN,0.0,0.51,0.84,halo heteroaromatic
+19,2-heptanone,C7H14O,0.05,0.48,0.61,ketone
+20,2-methyl-1-propanol,C4H10O,0.79,0.84,0.40,alcohol
+21,2-methyl-2-butanol,C5H12O,0.28,0.93,0.40,alcohol
+22,2-methyl-2-propanol,C4H10O,0.42,0.93,0.41,alcohol
+23,2-methylbutane,C5H12,0.0,0.01,-0.08,alkane
+24,2-methyltetrahydrofuran,C5H10O,0.0,0.45,…,ether
+0,2-pentanone,C5H10O,0.0,0.52,0.65,ketone
+1,2-phenylacetonitrile,C8H7N,0.0,0.41,1.0,aromatic nitrile
+2,2-phenylethanol,C8H10O,0.64,0.61,0.88,aromatic alcohol
+3,2-propanol,C3H8O,0.76,0.84,0.48,alcohol
+4,2-propanone,C3H6O,0.08,0.43,0.71,ketone
+5,2-propen-1-ol,⋮,0.84,0.9,0.52,alcohol
+6,2-pyrrolidone,C4H7NO,0.36,0.77,0.85,amide
+7,"3,4-dimethylpyridine",C7H9N,0.0,0.78,0.73,heteroaromatic
+8,3-bromopyridine,C5H4BrN,0.0,0.6,0.89,halo heteroaromatic
+9,3-chlorophenol,C6H5ClO,1.57,0.23,0.77,
+10,3-methyl-1-butanol,C5H12O,0.84,0.86,0.4,alcohol
+11,3-methyl-1-octyl-1H-imidazol-3-ium bis[(trifluoromethyl)sulfonyl]azanide,C14H23F6N3O4S2,0.97,0.28,0.97,
+12,3-methylphenol,C7H8O,1.13,0.34,0.68,
+13,3-pentanone,C5H10O,0.0,0.45,0.72,ketone
+14,3-phenylpropanol,C9H12O,0.53,0.55,0.95,aromatic alcohol
+15,"4-methyl-2-oxo-1,3-dioxolane",C4H6O3,0.0,0.4,0.83,ester
+16,4-methyl-2-pentanone,C6H12O,0.02,0.48,0.65,ketone
+17,4-methylphenol,C7H8O,1.64,0.34,0.68,
+18,4-methylpyridine,C6H7N,0.0,0.67,0.84,heteroaromatic
+19,acetic acid,C2H4O2,1.12,0.45,0.64,carboxylic_acid
+20,acetic anhydride,C4H6O3,0.0,0.29,0.76,
+21,acetonitrile,C2H3N,0.19,0.4,0.75,nitrile
+22,acetophenone,C8H8O,0.04,0.49,0.9,aromatic ketone
+23,aniline,C6H7N,0.26,0.5,0.73,aromatic amine
+24,benzene,C6H6,0.0,0.1,0.59,aromatic
+0,benzonitrile,C7H5N,0.0,0.37,0.9,aromatic nitrile
+1,benzyl alcohol,C7H8O,0.6,0.52,0.98,aromatic alcohol
+2,bis(2-chloroethyl) ether,C4H8Cl2O,0.0,0.4,0.82,halo ether
+3,bis(2-methoxyethyl) ether,C6H14O3,0.0,0.4,0.64,ether
+4,bromobenzene,C6H5Br,0.0,0.06,0.79,aromatic halo
+5,butanenitrile,C4H7N,0.0,0.4,0.71,nitrile
+6,butanoic acid,C4H8O2,1.1,0.45,0.56,carboxylic_acid
+7,butanol,C4H10O,0.84,0.84,0.47,alcohol
+8,butyl acetate,C6H12O2,0.0,0.45,0.46,ester
+9,butylamine,C4H11N,0.0,0.72,0.31,amine
+10,carbon disulfide,CS2,0.0,0.07,0.61,
+11,chloroacetonitrile,C2H2ClN,0.0,0.34,1.01,halo nitrile
+12,chlorobenzene,C6H5Cl,0.0,0.07,0.71,aromatic halo
+13,cis-decalin,C10H18,0.0,0.08,0.11,alkane cycloalkane
+14,cyclohexane,C6H12,0.0,0.0,0.0,alkane cycloalkane
+15,cyclohexanol,C6H12O,0.66,0.84,0.45,alcohol
+16,cyclohexanone,C6H10O,0.0,0.53,0.76,ketone
+17,cyclopentanone,C5H8O,0.0,0.52,0.76,ketone
+18,decane,C10H22,0.0,0.0,0.03,alkane
+19,decanol,C10H22O,0.7,0.82,0.45,alcohol
+20,di-n-butyl sulfide,C8H18S,0.0,0.38,0.36,
+21,dibenzyl ether,C14H14O,0.0,0.41,0.8,aromatic ether
+22,dibromomethane,CH2Br2,0.0,0.0,0.92,halo
+23,dibutyl ether,C8H18O,0.0,0.46,0.27,ether
+24,dichloromethane,CH2Cl2,0.13,0.1,0.82,halo
+0,diethyl carbonate,C5H10O3,0.0,0.4,0.45,ester
+1,diethyl ether,C4H10O,0.0,0.47,0.27,ether
+2,diethyl sulfide,C4H10S,0.0,0.37,0.46,
+3,diethylamine,C4H11N,0.3,0.7,0.24,amine
+4,diiodomethane,CH2I2,0.0,0.0,0.65,halo
+5,diisopropyl ether,C6H14O,0.0,0.49,0.27,ether
+6,diisopropyl sulfide,C6H14S,0.0,0.38,0.36,
+7,dimethyl carbonate,C3H6O3,0.0,0.43,…,ester
+8,dimethyl phthalate,C10H10O4,0.0,0.78,0.82,aromatic ester
+9,dimethyl sulfide,C2H6S,0.0,0.34,0.57,
+10,dimethyl sulfoxide,C2H6OS,0.0,0.76,1.00,
+11,dimethylcyanamide,C3H6N2,0.0,0.64,0.72,
+12,dioxane,C4H8O2,0.0,0.37,0.55,ether
+13,diphenyl ether,C12H10O,0.0,0.13,0.66,aromatic ether
+14,dipropyl ether,C6H14O,0.0,0.46,0.27,ether
+15,dodecane,C12H26,0.0,0.0,0.05,alkane
+16,ethanediol,C2H6O2,0.9,0.52,0.92,alcohol
+17,ethanol,C2H6O,0.86,0.75,0.54,alcohol
+18,ethoxybenzene,C8H10O,0.0,0.3,0.69,aromatic ether
+19,ethyl acetate,C4H8O2,0.0,0.45,0.55,ester
+20,ethyl benzoate,C9H10O2,0.0,0.41,0.74,aromatic ester
+21,ethyl chloroacetate,C4H7ClO2,0.0,0.35,0.70,halo ester
+22,ethyl formate,C3H6O2,0.0,0.36,0.61,ester
+23,ethyl trichloroacetate,C4H5Cl3O2,0.0,0.25,0.61,halo ester
+24,fluorobenzene,C6H5F,0.0,0.07,0.62,aromatic halo fluoro
+0,formamide,CH3NO,0.71,0.48,0.97,amide
+1,formic acid,CH2O2,1.23,0.38,0.65,carboxylic_acid
+2,furan,C4H4O,0.0,0.14,…,heteroaromatic
+3,heptane,C7H16,0.0,0.0,-0.08,alkane
+4,heptanoic acid,C7H14O2,1.2,0.45,0.50,carboxylic_acid
+5,hexafluorobenzene,C6F6,0.0,0.02,0.33,aromatic halo
+6,hexamethylphosphoramide,C6H18N3OP,0.0,1.05,0.87,
+7,hexane,C6H14,0.0,0.0,-0.04,alkane
+8,hexanoic acid,C6H12O2,1.22,0.45,0.52,carboxylic_acid
+9,hexanol,C6H14O,0.8,0.84,0.40,alcohol
+10,iodobenzene,C6H5I,0.0,0.06,0.81,aromatic halo
+11,methanol,CH4O,0.98,0.66,0.60,alcohol
+12,methoxybenzene,C7H8O,0.0,0.32,0.73,aromatic ether
+13,methyl acetate,C3H6O2,0.0,0.42,0.60,ester
+14,methyl benzoate,C8H8O2,0.0,0.38,…,aromatic ester
+15,methyl formate,C2H4O2,0.0,0.37,0.62,ester
+16,methyl propanoate,C4H8O2,0.0,0.27,…,ester
+17,morpholine,C4H9NO,0.29,0.7,0.39,ether amine
+18,"N,N,N',N'-tetramethylurea",C5H12N2O,0.0,0.8,0.83,amide
+19,"N,N-diethylacetamide",C6H13NO,0.0,0.78,0.84,amide
+20,"N,N-diethylformamide",C5H11NO,0.0,0.79,…,amide
+21,"N,N-dimethylacetamide",C4H9NO,0.0,0.76,0.88,amide
+22,"N,N-dimethylaniline",C8H11N,0.0,0.43,0.73,amine aromatic
+23,"N,N-dimethylbenzylamine",C9H13N,0.0,0.64,0.45,amine aromatic
+24,"N,N-dimethylcyclohexylamine",C8H17N,0.0,0.84,0.23,amine
+0,"N,N-dimethylformamide",C3H7NO,0.0,0.69,0.88,amide
+1,N-methylacetamide,⋮,0.47,0.8,1.01,amide
+2,N-methylaniline,C7H9N,0.17,0.47,0.82,amine aromatic
+3,N-methylformamide,C2H5NO,0.62,0.8,0.90,amide
+4,N-methylpyrrolidone,C5H9NO,0.0,0.77,0.92,amide
+5,nitrobenzene,C6H5NO2,0.0,0.3,1.01,nitro aromatic
+6,nitromethane,CH3NO2,0.22,0.06,0.85,nitro
+7,octadecafluoronaphthalene,C10F18,0.0,-0.05,-0.32,aromatic halo
+8,octane,C8H18,0.0,0.0,0.01,alkane
+9,octanol,C8H18O,0.77,0.81,0.40,alcohol
+10,oxane,C5H10O,0.0,0.54,0.51,ether
+11,oxolan-2-one,C4H6O2,0.0,0.49,0.87,ester
+12,pentafluoropyridine,C5F5N,0.0,0.16,0.53,halo heteroaromatic
+13,pentane,C5H12,0.0,0.0,-0.08,alkane
+14,pentanoic acid,C5H10O2,1.19,0.45,0.54,
+15,pentanol,C5H12O,0.84,0.86,0.40,alcohol
+16,perfluoro(methylcyclohexane),C7F14,0.0,-0.06,-0.40,halo
+17,phenol,C6H6O,1.65,0.3,0.72,
+18,piperidine,C5H11N,0.0,1.04,0.30,amine
+19,propanenitrile,C3H5N,0.0,0.39,0.71,nitrile
+20,propanoic acid,C3H6O2,1.12,0.45,0.58,
+21,propanol,C3H8O,0.84,0.9,0.52,alcohol
+22,propyl acetate,C5H10O2,0.0,0.4,…,ester
+23,pyridine,C5H5N,0.0,0.64,0.87,heteroaromatic
+24,pyrrolidine,C4H9N,0.16,0.7,0.39,
+0,quinoline,C9H7N,0.0,0.64,0.92,aromatic heteroaromatic
+1,styrene,C8H8,0.0,0.12,…,alkene aromatic
+2,sulfolane,C4H8O2S,0.0,0.39,0.98,
+3,tetrachloroethene,C2Cl4,0.0,0.05,0.28,halo
+4,tetrachloromethane,CCl4,0.0,0.1,0.28,halo
+5,tetradecafluorohexane,C6F14,0.0,-0.08,-0.41,halo
+6,tetrahydrofuran,C4H8O,0.0,0.55,0.58,ether
+7,tetramethylsilane,C4H12Si,0.0,0.02,-0.09,
+8,thiane,C5H10S,0.0,0.36,0.61,
+9,thiolane,C4H8S,0.0,0.44,0.62,
+10,thiolane-1-oxide,C4H8OS,0.0,0.81,1.06,
+11,toluene,C7H8,0.0,0.11,0.54,aromatic
+12,"trans-1,2-dichloroethene",C2H2Cl2,0.0,0.0,0.44,alkene halo
+13,tribromomethane,CHBr3,0.05,0.05,0.62,halo
+14,tributyl phosphate,C12H27O4P,0.0,0.8,0.65,
+15,tributylamine,C12H27N,0.0,0.62,0.16,amine
+16,trichloroethene,C2HCl3,0.0,0.05,0.53,halo alkene
+17,trichloromethane,CHCl3,0.2,0.1,0.58,halo
+18,triethyl phosphate,C6H15O4P,0.0,0.77,0.72,
+19,triethylamine,C6H15N,0.0,0.71,0.14,amine
+20,trimethyl phosphate,C3H9O4P,0.0,0.77,0.72,
+21,water,H2O,1.17,0.47,1.09,
